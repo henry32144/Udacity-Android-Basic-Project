@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:minHeight="@dimen/list_item_height">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/background"
+        android:background="@color/backGroundColor" />
+
+    <TextView
+        android:id="@+id/location_name"
+        android:text="test"
+        android:textStyle="bold"
+        style="@style/location_text" />
+
+    <TextView
+        android:id="@+id/location_type"
+        style="@style/location_text"
+        android:paddingBottom="30dp"
+        android:text="test"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

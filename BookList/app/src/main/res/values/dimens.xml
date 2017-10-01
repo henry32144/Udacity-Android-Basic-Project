@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="iist_item_padding">16dp</dimen>
+
+    <dimen name="list_item_width">0dp</dimen>
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="list_item_titleText">12sp</dimen>
+    <dimen name="list_item_contentText">16sp</dimen>
+    <dimen name="list_item_introTitleText">30sp</dimen>
+</resources>

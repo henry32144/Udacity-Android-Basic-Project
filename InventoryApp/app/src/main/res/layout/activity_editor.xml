@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><!-- Layout for the editor -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin">
+
+        <!-- Overview category -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/editor_layout_product" />
+
+            <LinearLayout style="@style/editor_input_area">
+
+                <!-- Name field -->
+                <EditText
+                    android:id="@+id/edit_product_name"
+                    style="@style/EditorFieldStyle"
+                    android:hint="@string/editor_layout_prodcut_name"
+                    android:inputType="text" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/editor_price" />
+
+            <LinearLayout style="@style/editor_input_area">
+
+                <!-- Price field -->
+                <EditText
+                    android:id="@+id/edit_product_price"
+                    style="@style/EditorFieldStyle"
+                    android:inputType="number"
+                    android:hint="@string/editor_price" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:layout_weight="1"
+                android:text="@string/editor_layout_quantity" />
+
+            <LinearLayout
+                style="@style/editor_input_area"
+                android:orientation="horizontal">
+
+            <Button
+                style="@style/editor_caculate_button"
+                android:focusable="false"
+                android:background="@drawable/ic_indeterminate_check_box_24dp"
+                android:id="@+id/editor_minus_button"/>
+
+            <!-- Current quantity -->
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:id="@+id/edit_product_quantity"
+                android:hint="@string/editor_quantity_hint"
+                android:inputType="number"
+                style="@style/EditorFieldStyle" />
+
+            <Button
+                style="@style/editor_caculate_button"
+                android:focusable="false"
+                android:background="@drawable/ic_add_box_24dp"
+                android:id="@+id/editor_plus_button"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/edit_sold_number" />
+
+            <LinearLayout style="@style/editor_input_area">
+
+                <!-- Number field -->
+                <EditText
+                    android:id="@+id/edit_product_sold"
+                    style="@style/EditorFieldStyle"
+                    android:inputType="number"
+                    android:hint="@string/editor_sold_number" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/editor_distributor" />
+
+            <LinearLayout style="@style/editor_input_area">
+
+                <!-- Email field -->
+                <EditText
+                    android:id="@+id/editor_distributor"
+                    style="@style/EditorFieldStyle"
+                    android:inputType="textEmailAddress"
+                    android:hint="@string/editor_distributor_hint" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/editor_img_button"
+            android:text="@string/editor_img_button"
+            android:textColor="@color/buttonText"
+            style="@style/editor_img_button" />
+
+        <ImageView
+            android:layout_width="@dimen/editor_image_width"
+            android:layout_height="@dimen/editor_image_height"
+            android:id="@+id/editor_product_img"/>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/editor_order"
+        android:src="@drawable/ic_email_white_24dp"
+        style="@style/editor_order_button"
+        android:layout_above="@+id/editor_fab"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/editor_fab"
+        style="@style/fab_button"
+        android:src="@drawable/ic_check_white_24dp" />
+
+</RelativeLayout>

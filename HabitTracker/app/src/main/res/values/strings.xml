@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HabitTracker</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="edit_item_label">Change habit</string>
+    <string name="editor_label">Add a habit</string>
+    <string name="editor_layout_habit">Habit</string>
+    <string name="editor_layout_frequency">Frequency</string>
+    <string name="editor_layout_day">Day</string>
+    <string name="editor_layout_times">Times</string>
+
+    <string name="no_habit">No habit exist</string>
+
+    <string name="list_item_day">日</string>
+    <string name="list_item_times">次</string>
+
+    <string name="menu_delete_all">Delete All</string>
+    <string name="menu_delete_database">Delete Database</string>
+</resources>

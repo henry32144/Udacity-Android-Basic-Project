@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="TitleText">Welcome to</string>
+    <string name="SubTitleText">Thung Hai</string>
+
+    <string name="category_content">Around</string>
+
+    <string name="category_school">School</string>
+    <string name="category_food">Food</string>
+    <string name="category_attraction">Spot</string>
+    <string name="category_shopping">Shopping</string>
+
+    <string name="school_church">The Luce Chapel</string>
+    <string name="school_church_info">附近餐廳: 花園餐廳 \n 活動:禮拜</string>
+    <string name="school_bell">畢律斯鐘樓</string>
+    <string name="school_bell_info">附近餐廳: none \n 活動:聖誕節敲鐘</string>
+    <string name="school_ranch">東海大學牧場</string>
+    <string name="school_ranch_info">附近餐廳: none \n 活動:none</string>
+    <string name="school_lake">東海湖</string>
+    <string name="school_lake_info">附近餐廳: none \n 活動:none</string>
+    <string name="school_milkshop">東海乳品小棧</string>
+    <string name="school_milkshop_info">附近餐廳: none \n 活動:none</string>
+    <string name="school_road">東海文理大道</string>
+    <string name="school_road_info">附近餐廳: none \n 活動:none</string>
+
+    <string name="food_chickenfoot">雞爪凍</string>
+    <string name="food_chickenfoot_info">類型:小吃 \n 特色:雞爪凍、滷味</string>
+    <string name="food_leochiu">Leo Chiu</string>
+    <string name="food_leochiu_info">類型:西式簡餐 \n 特色:鬆餅漢堡、義大利麵</string>
+    <string name="food_masa">Meets Masa</string>
+    <string name="food_masa_info">類型:日本料理 \n 特色:各種定食</string>
+    <string name="food_greenbeanmilk">綠豆沙牛奶</string>
+    <string name="food_greenbeanmilk_info">類型:飲料攤 \n 特色:綠豆沙牛奶</string>
+
+    <string name="attr_artstreet">Thung Hai Art Street</string>
+    <string name="attr_artstreet_info">適合活動:逛街、拍照 \n 特色:各種風格的店家</string>
+    <string name="attr_autumnVally">台中秋虹谷</string>
+    <string name="attr_autumnVally_info">適合活動:散步、約會 \n 特色:都市中心的綠地</string>
+    <string name="attr_gaomei">Gaomei Wetland</string>
+    <string name="attr_gaomei_info">適合活動:看夕陽、約會 \n 特色:風景很好的濕地</string>
+    <string name="attr_taichungTheater">Taichung Theater</string>
+    <string name="attr_taichungTheater_info">適合活動:看歌劇、聽音樂 \n 特色:音樂廳</string>
+
+    <string name="shop_FJnightmarket">逢甲夜市</string>
+    <string name="shop_FJnightmarket_info">類型:夜市 \n 特色:熱鬧、小販多</string>
+    <string name="shop_THnightmarket">東海夜市</string>
+    <string name="shop_THnightmarket_info">類型:夜市 \n 特色:稍微熱鬧、店家多</string>
+    <string name="shop_chingmei">Park Lane by CMP</string>
+    <string name="shop_chingmei_info">類型:百貨 \n 特色:街頭藝人多、活動多</string>
+    <string name="shop_mall">台中大遠百</string>
+    <string name="shop_mall_info">類型:百貨 \n 特色:有兩家百貨、交通方便</string>
+
+    <string name="type_attraction">Attraction</string>
+    <string name="type_food">Food</string>
+    <string name="type_shop">Shop</string>
+    <string name="title_activity_detail">Map</string>
+
+</resources>

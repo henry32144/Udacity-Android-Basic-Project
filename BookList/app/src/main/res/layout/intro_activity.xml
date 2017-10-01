@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/intro_title_Text"
+        style="@style/intro_title_Text"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id="@+id/intro_search_box"
+        android:text="@string/input_placeholder"
+        style="@style/intro_input_box" />
+
+    <Button
+        android:id="@+id/intro_search_button"
+        android:text="@string/search_button_text"
+        style="@style/intro_search_buton" />
+
+</RelativeLayout>

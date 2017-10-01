@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="list_item_contentText">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/list_item_contentText</item>
+        <item name="android:textColor">@color/ContentTextColor</item>
+    </style>
+
+    <style name="list_item_titleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/list_item_titleText</item>
+    </style>
+
+    <style name="list_item_linearlayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">@dimen/iist_item_padding</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">@dimen/iist_item_padding</item>
+    </style>
+
+    <style name="intro_title_Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/list_item_introTitleText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_above">@+id/intro_search_box</item>
+        <item name="android:layout_alignLeft">@+id/intro_search_box</item>
+        <item name="android:layout_alignRight">@id/intro_search_box</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="intro_input_box">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="intro_search_buton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBottom">@+id/intro_search_box</item>
+        <item name="android:layout_toRightOf">@+id/intro_search_box</item>
+    </style>
+
+</resources>

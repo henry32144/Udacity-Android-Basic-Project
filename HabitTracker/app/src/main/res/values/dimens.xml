@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="activity_margin">16dp</dimen>
+
+    <dimen name="iist_item_padding">16dp</dimen>
+
+    <dimen name="list_item_width">0dp</dimen>
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="list_item_contentText">16sp</dimen>
+    <dimen name="list_item_habitText">24sp</dimen>
+    <dimen name="iist_item_textPadding">8dp</dimen>
+</resources>
