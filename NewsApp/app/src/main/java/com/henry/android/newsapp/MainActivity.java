@@ -21,7 +21,9 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements LoaderCallbacks<List<News>> {
 
-    private static final String NEWS_URL = "http://content.guardianapis.com/search?tag=business/business&api-key=test";
+    // You should replace this api key to yours
+    private static final String API_KEY = "Your API";
+    private static final String NEWS_URL = "http://content.guardianapis.com/search?tag=business/business&api-key=" + API_KEY;
 
     private static final int NEWS_LOADER_ID = 1;
 
@@ -96,6 +98,7 @@ public class MainActivity extends AppCompatActivity implements LoaderCallbacks<L
 
     @Override
     public Loader<List<News>> onCreateLoader(int id, Bundle bundle) {
+
         return new NewsLoader(this, NEWS_URL);
     }
 

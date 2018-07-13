@@ -274,8 +274,8 @@ public class EditorActivity extends AppCompatActivity implements
 
     @Override
     public Loader<Cursor> onCreateLoader(int id, Bundle args) {
-        // Since the editor shows all pet attributes, define a projection that contains
-        // all columns from the pet table
+        // Since the editor shows all product attributes, define a projection that contains
+        // all columns from the product table
         String[] projection = {
                 ProductContract.ProductEntry._ID,
                 ProductContract.ProductEntry.COLUMN_PRODUCT_NAME,
@@ -526,7 +526,7 @@ public class EditorActivity extends AppCompatActivity implements
     }
 
     private void openGallery() {
-        Intent gallery = new Intent(Intent.ACTION_PICK,
+        Intent gallery = new Intent(Intent.ACTION_OPEN_DOCUMENT,
                         android.provider.MediaStore.Images.Media.INTERNAL_CONTENT_URI);
         startActivityForResult(gallery, PICK_IMAGE);
     }

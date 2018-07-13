@@ -149,10 +149,10 @@ public final class BookQuery {
 
     public static List<Book> fetchBookData(String requestUrl) {
 
-        // 创建 URL 对象
+
         URL url = createURL(requestUrl);
 
-        // 执行 URL 的 HTTP 请求并接收返回的 JSON 响应
+        // Execute HTTP request and receive JSON response
         String jsonResponse = null;
         try {
             jsonResponse = makeHttpRequest(url);

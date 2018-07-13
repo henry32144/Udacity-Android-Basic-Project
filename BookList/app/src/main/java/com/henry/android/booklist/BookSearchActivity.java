@@ -105,8 +105,7 @@ public class BookSearchActivity extends AppCompatActivity implements LoaderCallb
 
     @Override
     public Loader<List<Book>> onCreateLoader(int i, Bundle bundle) {
-        // 为给定 URL 创建新 loader
-
+        // create new loader by url
         return new BookLoader(this, GOOGLE_BOOKAPI_URL);
     }
 
@@ -127,7 +126,7 @@ public class BookSearchActivity extends AppCompatActivity implements LoaderCallb
 
     @Override
     public void onLoaderReset(Loader<List<Book>> loader) {
-        // 重置 Loader，以便能够清除现有数据。
+        // reset loader
         mAdapter.clear();
     }
 }
